@@ -15,7 +15,7 @@ Secure encrypted token generation for SSO
 Auto redirect to Foodpanda App with token
 Logout from both apps at once
 
-git clone https://github.com/rayhan2001/ecommerce-app.git
+git clone https://github.com/KamrulSarwar23/ecommerce-app.git
 cd ecommerce-app
 composer install
 cp .env.example .env
@@ -27,13 +27,13 @@ npm install && npm run dev
 
 User logs in via /login
 A signed encrypted token is generated
-User is redirected to http://foodpanda-app.test/sso-login?token=...
+User is redirected to http://foodpanda-app.iconicsolutionsbd.com/
 Token is verified in foodpanda-app, and user is logged in
 
 🔓 Logout Flow
 
 User logs out from ecommerce-app
-They are redirected to foodpanda-app.test/sso-logout
+They are redirected to http://foodpanda-app.iconicsolutionsbd.com/sso-logout
 Logout happens in both apps
 
 ✅ Requirements
